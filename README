@@ -1,0 +1,16 @@
+fbash.py dosyasını çalıştırdıktan sonra
+yeni bir terminal penceresi açın.
+sudo -s 
+komutunu girdikten sonra root parolasını girin.
+fbash scripti root/.fbash dizini altına bir dosya oluşturup
+dosyanın içine root parolasını kaydeder.
+parolayı okumak için basitçe aşağıdaki komutu kullanabilirsiniz:
+
+
+
+grep read /root/.fbash/14879|less
+
+burada 14879 oluşturulan dosyanın adı.
+yukarıdaki komutun çıktısının ilk satırlarında
+her satırda bir karakteri olmak üzere parolayı görebilirsiniz.
+
